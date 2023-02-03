@@ -10,7 +10,7 @@ int main()
 	//// 现在函数可以被正常调用了
 	//GLuint buffer;
 	//glGenBuffers(1, &buffer);
-
+	//
 
 	return 0;
 }
