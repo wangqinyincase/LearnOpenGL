@@ -13,3 +13,5 @@ link_directories("${PROJECT_SOURCE_DIR}/../../ThirdLibrary/Depends/libs/glfw/Deb
 
 # 指定生成目标
 add_executable(GettingStarted ${DIR_SRCS})
+
+target_link_libraries(GettingStarted opengl32 glfw3)
