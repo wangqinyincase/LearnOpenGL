@@ -99,13 +99,13 @@ public:
     {
         float velocity = MovementSpeed * deltaTime;
         if (direction == FORWARD)
-            Position += FrontMove * velocity;
+            Position += Front * velocity;
         if (direction == BACKWARD)
-            Position -= FrontMove * velocity;
+            Position -= Front * velocity;
         if (direction == LEFT)
-            Position -= RightMove * velocity;
+            Position -= Right * velocity;
         if (direction == RIGHT)
-            Position += RightMove * velocity;
+            Position += Right * velocity;
     }
 
     // processes input received from a mouse input system. Expects the offset value in both the x and y direction.
